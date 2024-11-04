@@ -5,8 +5,15 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Contact Info</title>
 <style>
+    header {
+       align-items: right;
+       text-align: center;
+       color:black; 
+       font-size: 40px;  
+       }
+
     body {
-        background-image: url("../imagesCSS/dunes.jpg");
+        background-image: url("../images/dunes.jpg");
         height:600px;
         width:1000px;
         background-size: cover;
@@ -14,17 +21,15 @@
         flex-wrap: wrap;
      }
    
-   header {
-       align-items: right;
-       text-align: center;
-       color:black; 
-       font-size: 40px;  
-       }
-
-    #footer {
+    .footer {
+       margin-top:auto; 
        color:silver;
        align-self: baseline;
        font-size: 20px;  
+       margin-top: auto;
+   }
+   p { 
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
    }
 
    .linkedin { 
@@ -36,6 +41,10 @@
    #navlist { 
        text-align: right;
        color:darkgrey;
+   }
+   img{ 
+      height: 40%; 
+      width:40%; 
    }
 </style>
 
@@ -51,10 +60,18 @@
         <a href="ContactInfo.html">Contact Info</a>
         <a href="Hobbies.html">Hobbies</a>
      </nav>    
+
+
+     <P> Indian Hills Email and Linkedin</P>
          
+
+    <img src="../images/linkedinpic.jpg"> 
+    <img src="../images/IHCCIMG.jpeg">
+
   <footer>Links
      <a id="linkedin" href="https://www.linkedin.com/in/arun-graeff-b95113327/" target="_blank">Linkedin</a>
- </footer>
+    <a id="IHCC" href="https://www.indianhills.edu/students/index.php" target="blank">IHCC</a>
+    </footer>
         
 </body>
 </html>
